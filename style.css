@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: "Bahianita", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 0;
+    font-size: 50px;
+}
+
+button{
+    background-color:white ;
+    color: black;
+    font-family: "Bahianita", sans-serif;
+    font-size: 25px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+main{
+    text-align: center;
+    max-width: 50%;
+}
+
+.passo{
+    display:none;
+}
+
+.passo.ativo{
+    display:block;
+}

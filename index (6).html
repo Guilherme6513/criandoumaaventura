@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bahianita&display=swap" rel="stylesheet">
+    <title>Guerra Futurista</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Nesta nova aventura vamos te mostrar uma guerra feita por robos que são controlados pelo próprio computador!</p>
+            <button class="btn-proximo" data-proximo="1">start game!</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>para começar essa guerra incrível de robôs, precisamos saber se você realmente está pronto para começar!!</p>
+            <button class="btn-proximo" data-proximo="3">Sim</button>
+            <button class="btn-proximo" data-proximo="2">Não</button>
+        </div>
+        <div class="passo" id="passo-2">
+            
+            <p>Por que escolheu esse? Não gostou disso, você gostará então de saber que podem também jogar com amigos on-line essa guerra incrível.</p>
+            <button class="btn-proximo" data-proximo="6">recomeçar</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Nessa guerra do futuro vc pode criar seus robôs, fazendo ele mais forte, agil,rápido. Vamos começar essa sensação incrível</p>
+            <button class="btn-proximo" data-proximo="5">Sim</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Segundo cenário (resposta sim)</p>
+            <button class="btn-proximo" data-proximo="5">Sim</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Ótima escolha!</p>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>recomece e tente novamente </p>
+            <button class="btn-proximo" data-proximo="0">Vamos tentar novamente!</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
